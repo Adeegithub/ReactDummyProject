@@ -6,6 +6,7 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Student from "./components/Student";
+import ReactTable from "./components/ReactTable";
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
         <Route path="/contact" element={<Contact/>} />
       </Routes>
       <Student name="Adeesha" isGraduated = {true} />
-      <Student />
+      <ReactTable />
     </Router>
     
   );
